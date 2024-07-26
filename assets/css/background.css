@@ -52,8 +52,9 @@
     overflow: hidden;
     margin: 0;
     padding: 0;
-    line-height: 1.15;
+    line-height: 0.95;
     font-family: 'Times New Roman', Times, serif;
+    user-select: none;
 }
 html {
   line-height: 0.7;
@@ -67,25 +68,23 @@ html {
   
 
 h1 {
-    padding-top: 25%;
+    padding-top: 50vb;
     font-family: Dancing Script, cursive;
     font-optical-sizing: auto;
-    font-size: 15vb;
+    font-size: 10vb;
     font-weight: 700;
     font-style: normal;
     text-align: center;
     /*animation: lights 5s 750ms linear infinite;*/
-    user-select: none;
 }
 h2 {
     font-family: Montserrat, sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    font-size: 5vb;
+    font-size: 2vb;
     text-align: center;
     /*animation: lights 5s 750ms linear infinite;*/
-    user-select: none;
 }
 h3 {
     font-family: Montserrat, sans-serif;
@@ -94,5 +93,4 @@ h3 {
     font-style: normal;
     text-align: end;
     /*animation: lights 5s 750ms linear infinite;*/
-    user-select: none;
 }
