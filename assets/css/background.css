@@ -1,0 +1,98 @@
+@keyframes lights {
+    0% {
+      color: hsl(230, 40%, 80%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+    
+    30% { 
+      color: hsl(230, 80%, 90%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    40% { 
+      color: hsl(230, 100%, 95%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 90%, 0.5),
+        -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+        0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    70% {
+      color: hsl(230, 80%, 90%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    100% {
+      color: hsl(230, 40%, 80%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+    
+  }
+  body {
+    background-image: url(../images/plsloadgoddamnit.jpeg);
+    background-size:cover;
+    background-position: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    line-height: 1.15;
+    font-family: 'Times New Roman', Times, serif;
+}
+html {
+  line-height: 0.7;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+@media only screen and (min-width: 550px)
+  {
+    
+  }
+  
+
+h1 {
+    padding-top: 25%;
+    font-family: Dancing Script, cursive;
+    font-optical-sizing: auto;
+    font-size: 15vb;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    /*animation: lights 5s 750ms linear infinite;*/
+    user-select: none;
+}
+h2 {
+    font-family: Montserrat, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 5vb;
+    text-align: center;
+    /*animation: lights 5s 750ms linear infinite;*/
+    user-select: none;
+}
+h3 {
+    font-family: Montserrat, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: end;
+    /*animation: lights 5s 750ms linear infinite;*/
+    user-select: none;
+}
