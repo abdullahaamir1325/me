@@ -45,16 +45,26 @@
     }
     
   }
-  body {
-    background-image: url(../images/plsloadgoddamnit.jpg);
-    background-size:cover;
-    background-position: center;
-    overflow:scroll;
-    margin: 0;
-    padding: 0;
-    line-height: 0.95;
-    font-family: 'Times New Roman', Times, serif;
-    user-select: none;
+body {
+  background-image: url(../images/plsloadgoddamnit.jpg);
+  background-size:cover;
+  background-position: center;
+  overflow:scroll;
+  margin: 0;
+  padding: 0;
+  line-height: 0.95;
+  font-family: 'Times New Roman', Times, serif;
+  user-select: none;
+}
+div {
+  text-align: center;
+}
+i.icon.fa-solid.fa-circle-arrow-right.fa-fade.colo {
+  font-size: 40px;
+  padding: 10px;
+  border-radius: 50%;
+  color: #ec933f;
+  text-align: center;
 }
 html {
   line-height: 0.7;
@@ -93,8 +103,4 @@ h3 {
     font-style: normal;
     text-align: end;
     /*animation: lights 5s 750ms linear infinite;*/
-}
-header-icons {
-  justify-content: center;
-  padding: 90vb;
 }
